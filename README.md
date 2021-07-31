@@ -1,6 +1,6 @@
 # mazesolving
 
-Just pick the input file,starting point and finishing point.
+Just pick the input file,starting point and finishing point.I have used my last project as underlying system to write this one.
 (Pick small png files and paint every pixel that you don't want to use to black)
 Example: 
 
