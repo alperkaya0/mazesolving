@@ -159,6 +159,15 @@ public class Main extends IntiutivelyShortest{
         int R = 119;
         int B = 209;
         for (int[] arr:outputArrInt) {
+            if (R<255){
+                R = (int)(Math.random()*255);
+            }
+            if (G<255){
+                G = (int)(Math.random()*255);
+            }
+            if (B<255){
+                B = (int)(Math.random()*255);
+            }
             Color c = new Color(R, G, B,255);
             gray.setRGB(arr[0],arr[1],c.getRGB());
 
