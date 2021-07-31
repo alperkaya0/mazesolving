@@ -2,6 +2,7 @@
 
 Just pick the input file,starting point and finishing point.I have used my last project as underlying system to write this one.
 (Pick small png files and paint every pixel that you don't want to use to black to make it work faster)
+(I can make it work faster via cutting creating tree when tree once has desired finishing point)
 Example: 
 
 INPUT(0x0 to Last Pixel):
