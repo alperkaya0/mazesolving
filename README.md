@@ -14,6 +14,8 @@ OUTPUT:
 
 Other Examples:
 
+![](https://github.com/alperkaya0/mazesolving/blob/main/maze1.png)
+
 ![](https://github.com/alperkaya0/mazesolving/blob/main/Screenshot_1.png)
 
 ![](https://github.com/alperkaya0/mazesolving/blob/main/Screenshot_2.png)
