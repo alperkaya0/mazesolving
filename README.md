@@ -7,6 +7,7 @@ Example:
 INPUT(0x0 to Last Pixel):
 
 ![](https://github.com/alperkaya0/mazesolving/blob/main/maze3INPUT.png)
+(don't forget that it can move cross too)
 
 OUTPUT:
 
