@@ -218,6 +218,15 @@ public class IntiutivelyShortest {
 
         return new Object[]{count,visited};
     }//Works somehow but since it only adds to list paths get concatenated kinda randomly(but there is no random event in a program)
+    public static int findNodeviaVertex(Tree tree,Vertex v) {
+        int idx = -1;
+        for (int i = 0;i<tree.getNodeList().size();++i) {
+            if (tree.getNodeList().get(i).getVertexSelf().equals(v)) {
+                idx = i;
+            }
+        }
+        return idx;
+    }
     public static String IntuitivenessPath(Vertex s, Vertex u, UGraph graph) {
         Tree tree = new Tree();
         String superSpecialString = "";
@@ -298,6 +307,9 @@ public class IntiutivelyShortest {
                 }
                 layers.add(new HashSet<>());
                 layers.getLast().addAll(tempParents);
+                if (tempParents.contains(findNodeviaVertex(tree,u))) {
+                    break;
+                }
                 tempParents.clear();
                 System.out.println();
                 for (int idx:tempChildren) {
@@ -308,6 +320,9 @@ public class IntiutivelyShortest {
                 }
                 layers.add(new HashSet<>());
                 layers.getLast().addAll(tempChildren);
+                if (tempChildren.contains(findNodeviaVertex(tree,u))) {
+                    break;
+                }
                 tempChildren.clear();
                 for (int idx:tempParents) {
                     for (Node n:tree.getNodeList().get(idx).getChildren().keySet()) {
