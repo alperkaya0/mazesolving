@@ -22,6 +22,10 @@ Other Examples:
 
 ![](https://github.com/alperkaya0/mazesolving/blob/main/o1.png)
 
+![](https://github.com/alperkaya0/mazesolving/blob/main/i2.png)
+
+![](https://github.com/alperkaya0/mazesolving/blob/main/o2.png)
+
 ![](https://github.com/alperkaya0/mazesolving/blob/main/maze1.png)
 
 ![](https://github.com/alperkaya0/mazesolving/blob/main/Screenshot_1.png)
